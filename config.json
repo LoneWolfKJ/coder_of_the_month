@@ -1,0 +1,12 @@
+{
+  "start_date": "2020-05-01T00:00:00.000000Z",
+  "end_date": "2020-05-31T23:59:59.999999Z",
+  "log_file_path": "./logs.log",
+  "spreadsheet_scope": ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"],
+  "creds_file_path": "./google_creds.json",
+  "data_sheet_name": "Form responses 1",
+  "date_sheet_name": "Duration",
+  "result_sheet_name": "coder_of_the_month",
+  "spreadsheet_key": "1K2PM0oTML5fdPbA5jkkJVAuCPGK6hlRZgz5fYO9s07c",
+  "sheet_columns": ["Name", "Email Address", "Batch", "Hackerrank ID (your username on hackerrank)", "Codeforces ID ( your username in codeforces)", "Hackerearth ID (your username on hackerearth)", "Codechef ID (your username on codechef)", "Spoj ID (your username on spoj)", "Profile Picture (To be Displayed on ACM Website)"]
+}
