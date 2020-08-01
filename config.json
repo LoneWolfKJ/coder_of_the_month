@@ -1,6 +1,6 @@
 {
-  "start_date": "2020-05-01T00:00:00.000000Z",
-  "end_date": "2020-05-31T23:59:59.999999Z",
+  "start_date": "2020-07-01T00:00:00.000000Z",
+  "end_date": "2020-07-31T23:59:59.999999Z",
   "log_file_path": "./logs.log",
   "spreadsheet_scope": ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"],
   "creds_file_path": "./google_creds.json",

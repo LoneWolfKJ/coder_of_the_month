@@ -78,7 +78,7 @@ class CC_Scrapper:
                 logging.info("2nd attempt Response {}".format(response))
                 if response.status_code != 200:
                     print_fail("Failed to get cc contests")
-                    exit(0)
+                    logging.info("2nd attempt FAILED")
             source = response.text
             soup = BeautifulSoup(source, 'lxml')
             soup = soup.find('div', class_='content-wrapper')
@@ -114,7 +114,7 @@ class CC_Scrapper:
                 logging.info("2nd attempt for user {} response {}".format(ccid, response))
                 if response.status_code != 200:
                     print_fail("Failed for user {} with id {}".format(user.name, ccid))
-                    exit(0)
+                    logging.info("2nd attempt FAILED")
             source = response.text
             soup = BeautifulSoup(source, 'lxml')
             soup = soup.decode('utf-8').encode('cp850', 'replace').decode('cp850')
